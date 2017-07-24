@@ -111,10 +111,10 @@ void busInfoChoice(void) {
 		break;
 	}
 	case 5: { //查询信息
-		printf("\n\t\t\t\t请输入你要查询的车辆车牌号：");
-		char plateNum[MAXPLATENUM];
-		scanf_s("%s", plateNum, MAXPLATENUM);
-		searchByPlateNum(plateNum);
+		printf("\n\t\t\t\t你要查询的是几路公交车呢：");
+		int busNum;
+		scanf_s("%d", &busNum);
+		searchByBusNum(busNum);
 		busInfoChoice();
 		break;
 	}

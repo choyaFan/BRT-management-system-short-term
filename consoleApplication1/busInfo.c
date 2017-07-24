@@ -140,10 +140,21 @@ int modifyBusInfo(char plateNum[]) {
 	return 1; 
 }
 
-void searchByPlateNum(char plateNum[]){
+void deleteBusInfoByRouteName(int routeName) {
+	bus* p=NULL;
+	p = busList->next;
+	while (p->next) {
+		if (p->route==routeName)
+		{
+			p->route = 0;
+		}
+		p = p->next;
+	}
+}
+void searchByBusNum(int BusNum) {
 	bus *p;
 	p = busList->next;
-	while (p && strcmp(p->plateNum, plateNum)) {
+	while (p && p->busNum != BusNum) {
 		p = p->next;
 	}
 	//չʾ

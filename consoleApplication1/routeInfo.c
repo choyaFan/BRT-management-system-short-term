@@ -95,7 +95,8 @@ int deleteRouteInfo(int routeName) {
 		p = p->next;
 	}
 	q->next = p->next;
-
+	deleteBusInfoByRouteName(routeName);
+	saveFile(1);
 	saveFile(3);
 
 	free((void *)p);

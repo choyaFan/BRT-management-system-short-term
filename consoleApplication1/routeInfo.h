@@ -6,6 +6,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "file.h"
+#include "busInfo.h"
 
 #define MAXSTATIONNAME 15
 

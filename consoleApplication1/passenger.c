@@ -26,7 +26,7 @@ void passengerChoice() {
 bus *searchBusNum(int busNum) {
 	bus *p = NULL;//设置为NULL防止线路不存在
 	p = busList->next;
-	while (p && p->busNum != busNum) {//便利链表找到结点
+	while (p && p->busNum != busNum && p->route != 0) {//便利链表找到结点
 		p = p->next;
 	}
 	return p;
