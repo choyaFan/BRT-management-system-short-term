@@ -28,6 +28,7 @@ void displayBusInfo(void);
 int addBusInfo(void);
 int deleteBusInfo(char plateNum[]);
 int modifyBusInfo(char plateNum[]);
-void searchByPlateNum(char plateNum[]);
+void searchByBusNum(int busNum);
+void deleteBusInfoByRouteName(int routeName);
 
 #endif
