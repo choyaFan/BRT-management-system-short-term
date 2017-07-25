@@ -1,0 +1,10 @@
+<<<<<<< HEAD
+﻿  file.c
+e:\vc\consoleapplication1\consoleapplication1\driverinfo.h(12): warning C4005: “MAXPLATENUM”: 宏重定义
+  e:\vc\consoleapplication1\consoleapplication1\businfo.h(10): note: 参见“MAXPLATENUM”的前一个定义
+=======
+﻿  password.c
+e:\vc\consoleapplication1\consoleapplication1\password.c(9): warning C4013: “_getch”未定义；假设外部返回 int
+>>>>>>> f96b7377afbbc8671af6cc9b3dd1a00e2a4163fb
+  ConsoleApplication1.vcxproj -> E:\VC\ConsoleApplication1\Debug\ManagementSystem.exe
+  ConsoleApplication1.vcxproj -> E:\VC\ConsoleApplication1\Debug\ManagementSystem.pdb (Full PDB)
